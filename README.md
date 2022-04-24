@@ -1,17 +1,8 @@
-# c-language
-#include<stdio.h>    
-int main()    
-{    
- int n1=0,n2=1,n3,i,number;    
- printf("Enter the number of elements:");    
- scanf("%d",&number);    
- printf("\n%d %d",n1,n2);//printing 0 and 1    
- for(i=2;i<number;++i)//loop starts from 2 because 0 and 1 are already printed    
- {    
-  n3=n1+n2;    
-  printf(" %d",n3);    
-  n1=n2;    
-  n2=n3;    
- }  
-  return 0;  
- }    
+A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner.
+The functions associated with stack are:
+
+empty() – Returns whether the stack is empty – Time Complexity: O(1)
+size() – Returns the size of the stack – Time Complexity: O(1)
+top() – Returns a reference to the topmost element of the stack – Time Complexity: O(1)
+push(a) – Inserts the element ‘a’ at the top of the stack – Time Complexity: O(1)
+pop() – Deletes the topmost element of the stack – Time Complexity: O(1)
